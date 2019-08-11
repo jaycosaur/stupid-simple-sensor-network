@@ -3,6 +3,8 @@
 
 A stupid simple sensor network using highly available low cost sensors and devices. This project is an exercise to build a complex distrubted system using micropython, and to allow other developers a quickstart to get micropython IoT devices up and running.
 
+![Heltec HTIT-WB32LA Device](https://github.com/jaycosaur/stupid-simple-sensor-network/blob/master/heltec-htit-wb32la.jpg)
+
 ## Hub and LoRa message broker
 
 Hub features:
