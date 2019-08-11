@@ -1,8 +1,8 @@
+import ubinascii
+import machine
+import time
 import sys
 import os
-import time
-import machine
-import ubinascii
 
 
 def mac2eui(mac):
