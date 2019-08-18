@@ -19,10 +19,12 @@ class LockedPin(Pin):
 
     def __enter__(self):
         self._lock.acquire()
-        return self
+        return self._pin
 
     def __exit__(self, exc_type, exc_value, traceback):
         self._lock.release()
+
+    # methods for quick value changes
 
     def value(self, state_value):
         self._pin.value(state_value)
